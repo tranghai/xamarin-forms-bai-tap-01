@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaiTap01.Views.MainViewDetail"
+             Icon="ic_menu.png"
+             >
+    
+    <Grid Padding="0" RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="img_master.png" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Aspect="AspectFill"/>
+        <Image Source="/Assets/Images/img_3.jpg" Grid.Row="2" Grid.Column="0" Aspect="AspectFill"/>
+        <Image Source="/Assets/Images/img_1.jpg" Grid.Row="2" Grid.Column="1" Aspect="AspectFill"/>
+        <Image Source="/Assets/Images/img_2.jpg" Grid.Row="3" Grid.Column="0" Aspect="AspectFill"/>
+        <Image Source="/Assets/Images/img_3.jpg" Grid.Row="3" Grid.Column="1" Aspect="AspectFill"/>
+    </Grid>
+</ContentPage>
